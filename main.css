@@ -1,0 +1,132 @@
+/* Padronizando cores e facilitando a leitura*/
+
+:root {
+  --lilás-claro: #E1D5F2;
+  --lilás-lavanda: #B5A4D4;
+  --lilás-amora: #6045f8;
+  --lilás-pastel: #F2E8FF;
+}
+
+body {
+  background-color: var(--lilás-claro);}
+
+/* Headers */
+h1, h2 {
+  font-family: 'Playwrite NG Modern';
+  color: var(--lilás-amora);
+}
+
+/* Links */
+a {
+  color: #fff ;
+  text-decoration: none;
+}
+
+/*navbar*/
+.navbar{
+  background-color: var(--lilás-claro);
+}
+
+.nav-pills .nav-link {
+  background-color: var(--lilás-lavanda);
+  color: var(--lilás-amora);
+
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-pills .nav-link:hover {
+  background-color: var(--lilás-pastel);
+}
+
+.nav-pills .nav-link.active,
+#fale-conosco button {
+    background-color: var(--lilás-amora);
+    color: #fff; 
+}
+
+.logo{
+  max-height: 45px;
+  max-width: 45;
+}
+
+/* botões */
+.btn-primary {
+  background-color: var(--lilás-claro); 
+}
+
+body {
+  background-repeat: no-repeat;
+  background-position: center;  
+  background-size: cover;
+  color: #080808;
+}
+/* Sobre img  */
+
+.sobreimg{
+  max-width: 360px;
+  max-height: 360px;
+  border: 5px solid var(--lilás-amora);
+}
+
+/* Carousel */
+.custom-carousel {
+  height: 30vh;
+}
+
+.custom-carousel .carousel-inner {
+  height: 100%;
+}
+
+.custom-carousel .carousel-item {
+  height: 100%;
+}
+
+.custom-carousel .carousel-item img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+#sobre{
+  background-color: var(--lilás-pastel);
+}
+
+
+#encomenda{
+  background-color: var(--lilás-pastel);
+}
+
+.footer{
+  flex-shrink: 0;
+  background-color: var(--lilás-pastel);
+}
+
+.col-md-10 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tab-menu{
+  background-color: var(--lilás-pastel);
+
+}
+
+/* Section Sobre */
+
+#bg-img {
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  #address{
+    margin-top: 5%;
+
+  }
+  .footer{
+    flex-shrink: 0;
+  }
+}
